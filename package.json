@@ -1,0 +1,24 @@
+{
+  "name": "lana-del-sealbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankwichw/lana-del-sealbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankwichw/lana-del-sealbot/issues"
+  },
+  "homepage": "https://github.com/frankwichw/lana-del-sealbot#readme"
+}
