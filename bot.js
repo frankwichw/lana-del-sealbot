@@ -66,7 +66,7 @@ Twitter.post('media/upload', { media_data: b64content }, function (err, data, re
       
       // post status!
       Twitter.post('statuses/update', params, function (err, data, response) {
-        console.log(data);
+        // console.log(data);
       })
     }
   })
