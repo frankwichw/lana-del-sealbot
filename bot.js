@@ -9,9 +9,10 @@ const BornToDie = require("./albums/bornToDie");
 const Ultraviolence = require("./albums/ultraviolence");
 const Honeymoon = require("./albums/honeymoon");
 const LustForLife = require("./albums/lustForLife");
+const Unreleased = require("./albums/unreleased");
 
 // random number that decides which album to pick
-const albumNum = Math.floor(Math.random() * 73) + 1;
+const albumNum = Math.floor(Math.random() * 94) + 1;
 
 // initializing album variable
 let album;
@@ -30,6 +31,8 @@ if (albumNum <= 5){
   album = Lizzy[Math.floor(Math.random() * 16)];
 } else if (albumNum <= 72 && albumNum >= 27){
   album = BornToDie[Math.floor(Math.random() * 31)];
+} else if (albumNum <=93 && albumNum >=73){
+  album = Unreleased[Math.floor(Math.random() * 21)];
 }
 
 // keys stored on heroku
@@ -41,7 +44,7 @@ const Twitter = new Twit({
 });
 
 // random number to decide which seal picture to use
-const randomNum = Math.floor(Math.random() * 52) + 1;
+const randomNum = Math.floor(Math.random() * 54) + 1;
 
 // path to seal picture
 const imagePath = "./images/seal" + randomNum + ".jpg";
