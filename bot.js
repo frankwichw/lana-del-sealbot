@@ -19,20 +19,33 @@ let album;
 
 // if else to decide which lyric will be stored in the album var
 if (albumNum <= 5){
-  let randomNumber = 
-  album = Sirens[Math.floor(Math.random() * 5)];
+  const randomSirens = Math.floor(Math.random() * 5);
+  album = Sirens[randomSirens];
+  console.log("Sirens: " + album + "\nRandom num: " + randomSirens);
 } else if (albumNum <=10 && albumNum >= 6){
-  album = LustForLife[Math.floor(Math.random() * 5)];
+  const randomLFL = Math.floor(Math.random() * 5);
+  album = LustForLife[randomLFL];
+  console.log("Lust for Life: " + album + "\nRandom num: " + randomLFL);
 } else if (albumNum <= 17 && albumNum >=11){
-  album = Ultraviolence[Math.floor(Math.random() * 7)];
+  const randomUltra = Math.floor(Math.random() * 7);
+  album = Ultraviolence[randomUltra];
+  console.log("Ultraviolence: " + album + "\nRandom num: " + randomUltra);
 } else if (albumNum <= 25 && albumNum >= 18){
-  album = Honeymoon[Math.floor(Math.random() * 8)];
+  const randomHoneymoon = Math.floor(Math.random() * 8);
+  album = Honeymoon[randomHoneymoon];
+  console.log("Honeymoon: " + album + "\nRandom num: " + randomHoneymoon);
 } else if (albumNum <= 41 && albumNum >= 26){
-  album = Lizzy[Math.floor(Math.random() * 16)];
+  const randomLizzy = Math.floor(Math.random() * 16);
+  album = Lizzy[randomLizzy];
+  console.log("Lizzy: " + album + "\nRandom num: " + randomLizzy);
 } else if (albumNum <= 72 && albumNum >= 27){
-  album = BornToDie[Math.floor(Math.random() * 31)];
+  const randomBTD = Math.floor(Math.random() * 31);
+  album = BornToDie[randomBTD];
+  console.log("Born to Die: " + album + "\nRandom num: " + randomBTD);
 } else if (albumNum <=93 && albumNum >=73){
-  album = Unreleased[Math.floor(Math.random() * 21)];
+  const randomUnreleased = Math.floor(Math.random() * 21);
+  album = Unreleased[randomUnreleased];
+  console.log("Unreleased: " + album + "\nRandom num: " + randomUnreleased);
 }
 
 // keys stored on heroku
