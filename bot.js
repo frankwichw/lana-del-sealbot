@@ -57,7 +57,7 @@ const Twitter = new Twit({
 });
 
 // random number to decide which seal picture to use
-const randomNum = Math.floor(Math.random() * 94) + 1;
+const randomNum = Math.floor(Math.random() * 98) + 1;
 
 // path to seal picture
 const imagePath = "./images/seal" + randomNum + ".jpg";
