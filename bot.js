@@ -38,7 +38,7 @@ if (albumNum <= 5){
   const randomLizzy = Math.floor(Math.random() * 16);
   album = Lizzy[randomLizzy];
   console.log("Lizzy: " + album + "\nRandom num: " + randomLizzy);
-} else if (albumNum <= 72 && albumNum >= 27){
+} else if (albumNum <= 72 && albumNum >= 42){
   const randomBTD = Math.floor(Math.random() * 31);
   album = BornToDie[randomBTD];
   console.log("Born to Die: " + album + "\nRandom num: " + randomBTD);
