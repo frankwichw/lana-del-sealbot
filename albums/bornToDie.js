@@ -26,9 +26,6 @@ const BornToDie = [
     "I'm tired of feeling like I'm fucking crazy / I'm tired of driving 'til I see stars in my eyes / all I've got to keep myself sane, baby / so I just ride, I just ride",
     "Elvis is my daddy, Marilyn’s my mother / Jesus is my bestest friend",
     "In the land of Gods and Monsters / I was an Angel / looking to get fucked hard",
-    "In the land of Gods and Monsters / I was an Angel / looking to get fucked hard",
-    "In the land of Gods and Monsters / I was an Angel / looking to get fucked hard",
-    "In the land of Gods and Monsters / I was an Angel / looking to get fucked hard",
     "So I run like I'm mad to heaven's door / I don't wanna be bad / I won't cheat you no more",
     
 ];
