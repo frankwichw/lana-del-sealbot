@@ -39,7 +39,7 @@ if (albumNum <= 5){
   album = Lizzy[randomLizzy];
   console.log("Lizzy: " + album + "\nRandom num: " + randomLizzy);
 } else if (albumNum <= 72 && albumNum >= 42){
-  const randomBTD = Math.floor(Math.random() * 28);
+  const randomBTD = Math.floor(Math.random() * 30);
   album = BornToDie[randomBTD];
   console.log("Born to Die: " + album + "\nRandom num: " + randomBTD);
 } else if (albumNum <=93 && albumNum >=73){
@@ -57,7 +57,7 @@ const Twitter = new Twit({
 });
 
 // random number to decide which seal picture to use
-const randomNum = Math.floor(Math.random() * 98) + 1;
+const randomNum = Math.floor(Math.random() * 99) + 1;
 
 // path to seal picture
 const imagePath = "./images/seal" + randomNum + ".jpg";

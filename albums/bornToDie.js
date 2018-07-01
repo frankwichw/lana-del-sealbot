@@ -27,7 +27,8 @@ const BornToDie = [
     "Elvis is my daddy, Marilyn’s my mother / Jesus is my bestest friend",
     "In the land of Gods and Monsters / I was an Angel / looking to get fucked hard",
     "So I run like I'm mad to heaven's door / I don't wanna be bad / I won't cheat you no more",
-    
+    "My pussy tastes like Pepsi Cola / My eyes are wide like cherry pies",
+    "Ooo ooo ooo ooh / Ooo ooo ooo ooh"
 ];
 
 module.exports = BornToDie;
