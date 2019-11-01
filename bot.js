@@ -13,7 +13,7 @@ const Unreleased = require("./albums/unreleased");
 const NormanFuckingRockwell = require("./albums/normanFuckingRockwell");
 
 // random number that decides which album to pick
-const albumNum = Math.floor(Math.random() * 103) + 1;
+const albumNum = Math.floor(Math.random() * 132) + 1;
 
 // initializing album variable
 let album;
@@ -47,8 +47,8 @@ if (albumNum <= 5){
   const randomUnreleased = Math.floor(Math.random() * 21);
   album = Unreleased[randomUnreleased];
   console.log("Unreleased: " + album + "\nRandom num: " + randomUnreleased);
-} else if (albumNum <=103 && albumNum >=94) {
-  const randomNFR = Math.floor(Math.random() * 9);
+} else if (albumNum <=132 && albumNum >=94) {
+  const randomNFR = Math.floor(Math.random() * 29);
   album = NormanFuckingRockwell[randomNFR];
   console.log("Norman Fucking Rockwell: " + album + "\nRandom num: " + randomNFR); 
 }
